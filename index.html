@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Javascript 30</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Amatic+SC|Josefin+Slab"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="left">
+      <h1>Javascript 30</h1>
+      <div class="description">
+        <p>
+          This website contains the journey of my
+          <a class="url" href="http://javascript30.com/">#javascript30</a>
+          challenge created by
+          <a class="url" href="https://wesbos.com">Wesbos</a>
+        </p>
+        <p>
+          You can find my notes and thoughts I logged while doing these amazing
+          mini projects on my
+          <a class="url" href="https://github.com/g-savitha/Javascript30"
+            >Repo</a
+          >
+        </p>
+      </div>
+    </div>
+    <div class="right">
+      <div class="links">
+        <a
+          class="link"
+          target="blank"
+          href="./01 - Javascript Drum Kit/index.html"
+          >Javascript Drum Kit <span> &#129345;</span>
+        </a>
+      </div>
+    </div>
+  </body>
+  <script>
+    var links = document.querySelectorAll(".link");
+    links.forEach(function (item, i) {
+      i++;
+      var link = `${i > 9 ? i : "0" + i} - ${item.textContent}`;
+      item.textContent = link;
+    });
+  </script>
+</html>
