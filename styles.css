@@ -1,4 +1,89 @@
-h1 {
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
   margin: 0;
   padding: 0;
   border: 0;
@@ -9,7 +94,7 @@ h1 {
 
 /* HTML5 display-role reset for older browsers */
 
-/* article,
+article,
 aside,
 details,
 figcaption,
@@ -21,10 +106,10 @@ menu,
 nav,
 section {
   display: block;
-} */
+}
 
 body {
-  line-height: 2;
+  line-height: 1;
 }
 
 ol,
@@ -68,9 +153,19 @@ body {
   display: flex;
   flex-flow: row nowrap;
   font-family: "Josefin Slab", serif;
-  font-size: large;
   color: blueviolet;
 }
+
+/*a {
+	font-family: 'Amatic SC', cursive;
+	color: rgba(5, 5, 5, .7);
+	cursor: pointer;
+}
+a:hover {
+	color: rgba(5, 5, 5, 1);
+	font-size: 18px;
+	font-weight: bold;
+}*/
 
 .left {
   width: 60%;
@@ -80,17 +175,36 @@ body {
   width: 90%;
   margin: 0 auto;
   line-height: 20px;
+  font-size: large;
 }
 
 .left h1 {
-  font-size: 142px;
+  font-size: 100px;
   font-family: "Amatic SC", cursive;
   text-align: center;
   margin-top: 70px;
   margin-bottom: 140px;
   text-shadow: 10px 10px 10px #000;
+  color: blueviolet;
 }
 
+.left img {
+  width: 70%;
+  display: block;
+  height: auto;
+  margin: 20px auto;
+  border: 1px solid black;
+  padding: 1px;
+  border-radius: 5px;
+}
+
+.left ul {
+  margin-top: 40px;
+}
+.left ul li {
+  margin-left: 10px;
+  padding-top: 5px;
+}
 .right {
   width: 38%;
   height: calc(100% - 15px);
@@ -116,16 +230,15 @@ body {
 
 a {
   font-family: "Amatic SC", cursive;
-  color: black;
+  color: rgba(5, 5, 5, 0.7);
   cursor: pointer;
 }
 .url {
+  font-family: "Josefin slab", serif;
   font-size: large;
-  font-family: "Josefin Slab", serif;
-  color: black;
   text-decoration: underline;
+  font-weight: bold;
 }
-
 .links .link:hover {
   color: blueviolet;
   font-size: 18px;
