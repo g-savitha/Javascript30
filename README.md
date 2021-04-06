@@ -9,7 +9,7 @@ Original files from [@wesbos](https://twitter.com/wesbos) and solutions can be f
 
 ## Table Of Contents
 
-1.  [ x ] ~~ [JavaScript Drum Kit](./01%20-%20JavaScript%20Drum%20Kit)~~
+1.  [x] ~~[JavaScript Drum Kit](./01%20-%20JavaScript%20Drum%20Kit)~~
 2.  [ ] [JS + CSS Clock](./02%20-%20JS%20%2B%20CSS%20Clock)
 3.  [ ] [CSS Variables](./03%20-%20CSS%20Variables)
 4.  [ ] [Array Cardio, Day 1](./04%20-%20Array%20Cardio%20Day%201)
