@@ -9,8 +9,8 @@ Original files from [@wesbos](https://twitter.com/wesbos) and solutions can be f
 
 ## Table Of Contents
 
-1.  [x] ~~[JavaScript Drum Kit](./01%20-%20Javascript%20Drum%20Kit/)~~
-2.  [ ] [JS + CSS Clock] (#)
+1.  [x] [JavaScript Drum Kit](./01%20-%20Javascript%20Drum%20Kit/)
+2.  [x] [JS + CSS Clock](./02%20-%20JS%20+%20CSS%20Clock/)
 3.  [ ] [CSS Variables] (#)
 4.  [ ] [Array Cardio, Day 1] (#)
 5.  [ ] [Flex Panel Gallery] (#)

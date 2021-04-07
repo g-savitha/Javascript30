@@ -226,6 +226,7 @@ a:hover {
   border-radius: 5px;
   padding: 20px 0;
   padding-left: 30px;
+  font-weight: bold;
 }
 
 a {

@@ -1,6 +1,6 @@
 # Javascript Drum Kit
 
-## What I Learnt? :
+## What I Learnt?
 
 ### HTML and CSS:
 
