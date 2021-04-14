@@ -12,7 +12,7 @@ Original files from [@wesbos](https://twitter.com/wesbos) and solutions can be f
 1.  [x] [JavaScript Drum Kit](./01%20-%20Javascript%20Drum%20Kit/)
 2.  [x] [JS + CSS Clock](./02%20-%20JS%20+%20CSS%20Clock/)
 3.  [x] [CSS Variables](./03%20-%20CSS%20Variables/)
-4.  [ ] [Array Cardio, Day 1] (#)
+4.  [x] [Array Cardio, Day 1](./04%20-%20Array%20Cardio%20-%201/)
 5.  [ ] [Flex Panel Gallery] (#)
 6.  [ ] [Type Ahead] (#)
 7.  [ ] [Array Cardio, Day 2] (#)
